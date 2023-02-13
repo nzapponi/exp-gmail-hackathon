@@ -80,7 +80,8 @@ const completeEnrollmentGoogle = async (userId: string, code: string) => {
       userId,
       provider: "google",
       tokens,
-      lastChecked: Math.floor(Date.now() / 1000),
+      lastChecked: 1675277947,
+      // lastChecked: Math.floor(Date.now() / 1000),
     });
   }
   log(

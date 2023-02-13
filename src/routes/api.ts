@@ -160,6 +160,8 @@ const processEmail = async (
           vendor: EMAILS_TO_VENDORS[mailFrom.value.split("<")[1].split(">")[0]],
           userId: authToken.userId,
           emailId: id,
+          attachment:
+            "http://tip-csv-convert.s3-website.eu-west-2.amazonaws.com/sample-receipt.png",
         };
       }
     }

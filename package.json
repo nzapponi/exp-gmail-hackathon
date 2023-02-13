@@ -1,5 +1,5 @@
 {
-  "name": "express-ts",
+  "name": "expenses-gmail",
   "version": "1.0.2",
   "private": true,
   "scripts": {
@@ -15,8 +15,10 @@
     "cookie-parser": "~1.4.4",
     "debug": "^4.3.1",
     "express": "^4.17.1",
+    "googleapis": "^111.0.0",
     "http-errors": "^2.0.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "openai": "^3.1.0"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^3.2.0",
@@ -43,7 +45,6 @@
     "webpack-node-externals": "^3.0.0"
   },
   "lint-staged": {
-    "*.{js,ts}": "eslint --cache --fix",
     "*.{js,ts,css,md}": "prettier --write"
   }
 }
